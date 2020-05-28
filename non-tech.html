@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <title>MagArete: An E-Magazine</title>
+    <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css"/>
+    
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <!--Import jQuery before materialize.js-->
+      
+    </head>
+
+    <body> 
+
+	<!-- Navigation Bar -->
+	<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper indigo darken-3">
+		      <a href="index.html" class="brand-logo">MagArete</a>
+		      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="tech.html">Technical</a></li>
+		        <li><a href="non-tech.html">Non-Technical</a></li>
+		        <li><a href="guest.html">Guest</a></li>
+				<li><a href="faq.html">FAQs</a></li>
+		        <li><a href="team.html">Team</a></li>
+		      </ul>
+		    </div>
+		</nav>
+	</div>
+
+	<ul id="slide-out" class="side-nav left-align" style="width:220px">
+	    <li><div class="userView">
+		    <img class="background" src="images/2.jpg">
+	  		    <a href="#!user"><img class="circle" src="images/contactpic.jpg"></a>
+  			    <a href="#!name"><span class="white-text name">MagArete</span></a>
+		        <a href="#!email"><span class="white-text email">MagArete.cse@gmail.com</span></a>
+	        </div>
+		</li>
+	
+	   <li><a class="waves-effect" href="index.html"><i class="material-icons">home</i>Home</a></li>
+		<li><a class="waves-effect" href="tech.html"><i class="material-icons">code</i>Technical</a></li>
+		<li><a class="waves-effect" href="non-tech.html"><i class="material-icons">nature_people</i>Non-Technical</a></li>
+		<li><a class="waves-effect" href="guest.html"><i class="material-icons">contact_mail</i>Guest</a></li>
+		<li><a class="waves-effect" href="faq.html"><i class="material-icons">query_builder</i>FAQs</a></li>
+		<li><a class="waves-effect" href="team.html"><i class="material-icons">info_outline</i>Team</a></li>
+	</ul>
+	
+	<!-- Heading -->
+
+	<div id="title">
+		<svg viewBox="0 0 1000 80">
+		  <!-- Symbol with text-->
+		  <symbol id="s-text">
+		    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">Non-Technical</text>
+		  </symbol>
+		  <!-- Clippath with text-->
+		  <clippath id="cp-text">
+		    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">Non-Technical</text>
+		  </clippath>
+
+		  <!-- Group with clippath for text-->
+		  <g clip-path="url(#cp-text)" class="colortext">
+		    <rect width="100%" height="100%" class="shape"></rect>
+		    <rect width="60%" height="100%" class="anim-shape"></rect>
+		    <rect width="54%" height="100%" class="anim-shape"></rect>
+		    <rect width="47%" height="100%" class="anim-shape"></rect>
+		    <rect width="41%" height="100%" class="anim-shape"></rect>
+		    <rect width="35%" height="100%" class="anim-shape"></rect>
+		  </g>
+
+		  <!-- Transparent copy of text to keep patterned text selectable-->
+		  <use xlink:href="#s-text" class="text--transparent"></use>
+		</svg>
+	</div> 
+
+
+	<!-- Parallex Effect -->
+
+	    <div class="parallax-container ">
+    		<div class="parallax"><img src="images/back_non-tech.jpg" style=" overflow: none; display: block;"></div>
+  		</div>
+		<!--<div class="hide-on-large-only">
+			<img src="images/back_non-tech.jpg" style="width:100%;">
+		</div>
+		
+	<!-- Cards -->	
+      <div class="container center-align" id="row1"> 
+    	<div class="row">
+			    <div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" height="55%" src="images/non-tech_1.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+						Article By : Dhara Patel
+						<span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i></span>
+						      				<br>	      
+						<b>European Summer school</b><br>Parul Institute of management has always been only to their resume but ...
+					      
+						</div>
+
+					 <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs"  src="images/contactpic2.png"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames ">
+				                <li><b>Dhara Patel</b></li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="summer_school.html" class="btn waves-effect green darken-2"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+
+			  		</div>
+				</div>
+			  	
+		  		
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/non-tech_2.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+						Article By :Daniel M. Phiri.
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i><br><b>Exams</b></span>
+						    <br>Its 9:40 and I knock on my classroom door asking for the faculties’...  
+						</div>
+					    
+					    <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/contactpic.png"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Daniel M. Phiri.</b></li>
+				                <li>3rd SEM- CSE</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="exam_non_tech.html" class="btn waves-effect green darken-2"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+		  		</div>
+
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/non-tech_3.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+							Article By : SillyCube Team
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i><br><b>Silly Cube</b><br></span>
+						    Sillycube is a community of tech-lovers who curate and exhibit new technology trends every day.
+						</div>
+					    
+					    <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Silly Cube Team</b></li>
+				                <li>A club of parul University</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="article.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			   </div>
+			 
+		</div>
+		<br> <br> <br> 
+	</div>
+
+		<!-- Parallex Effect -->
+
+	    <div class="parallax-container hide-on-med-and-down" id="par1">
+    		<div class="parallax"><img src="images/poem.jpg" style=" overflow: none; display: block;"></div>
+  		</div>
+		<div class="hide-on-large-only">
+			<img src="images/poem.jpg" style="width:100%;">
+		</div>
+
+  	<div class="container center-align" id="row2">
+		<div class="row">
+			    <div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/non-tech_faculty_1.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+						Article by : Nirali Naik
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i><br><b>Shadows</b></span>
+						      <br>Know that your karma is like your own SHADOW...!!!!
+						</div>
+					    
+					    <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/nirali_mam.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Nirali Naik</b></li>
+				                <li>Assistant Professor, Computer Science & Engineering Department</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="shadow_poem.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			  	</div>
+		  		
+		  		<div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/non-tech_4.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+						Article by : Shweta Pawar & Raj Shah
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i><br><b>Mother</b></span>
+						      <br>From the moment we met And you held me so tight
+						</div>
+					    
+					    <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/contactpic2.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Shweta Pawar & Raj Shah</b></li>
+				                <li>IMCA - 7 th semester</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="shadow_poem.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			  	</div>
+				
+				<div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/non-tech_5.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+						Article by : Prof. NileshKumar Kakade
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i><br><b>लक्ष्य</b></span>
+						      <br>अपनी मंज़िल को ध्यान में रख कर तू कर्म करता जा , आगे बढ़ता जा...
+							  </div>
+					    
+					    <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/contactpic.png"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Prof. NileshKumar Kakade</b></li>
+				                <li>Assistant Professor, Computer Science & Engineering Department</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="shadow_poem.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			  	</div>
+				
+		</div>
+			
+		</div>
+		<br> <br>  
+	</div>
+		<!-- Parallex Effect -->
+
+	    <div class="parallax-container hide-on-med-and-down" id="par1">
+    		<div class="parallax"><img src="images/11.png" style=" overflow: none; display: block;"></div>
+  		</div>
+		<div class="hide-on-large-only">
+			<img src="images/11.png" style="width:100%;">
+		</div>
+	<!--
+  	<div class="container" id="row3">
+		<div class="row">
+			    <div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/article2.png">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						      
+						</div>
+					    
+					    <!-- Card Reveal --    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="article.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			  	</div>
+		  		
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/article2.png">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						      
+						</div>
+					    
+					    <!-- Card Reveal --    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="article.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+		  		</div>
+
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/article2.png">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						     
+						</div>
+					    
+					    <!-- Card Reveal -- 
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="article.html" class="btn waves-effect green darken-2 "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			   </div>
+		</div> 
+	</div>-->
+	<div class="none">
+	<div class="container">
+		<h3 class="center-align" >There are no article posted in this section. <br>Be the first to post artcile and grab a chance to win prizes.</h3>
+	</div>
+	</div>
+
+<!-- Parallex Effect -->
+
+	    <div class="parallax-container hide-on-med-and-down">
+    		<div class="parallax"><img src="images/photography.jpg" style=" overflow: none; display: block;"></div>
+  		</div>
+		<div class="hide-on-large-only">
+			<img src="images/photography.jpg" style="width:100%;">
+		</div>
+	<!-- Cards -->	
+      <div class="container" id="row1"> 
+    	<div class="row">
+			    <div class="col m4 offset-m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" height="55%" src="images/2016-09-04-14-27-37.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+							Article by : Prof. Alapati Ajay Kumar
+					      <span class="card-title activator grey-text text-darken-4"><b>Poster</b><i class="material-icons right">info_outline</i></span>
+						      <p style="width: 100%; display: inline-block; overflow: none;color:black">An imagitation of art creator<br>Read article to view full Poster</p>
+						</div>
+
+					 <!-- Card Reveal -->    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/contactpic.png"> </div>
+				            <div class="banner"></div>
+				            <ul class="cardnames">
+				                <li><b>Alapati Ajay Kumar</b></li>
+				                <li>CSE_B1</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="poster.html" class="btn waves-effect waves-red "><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+
+			  		</div>
+				</div>
+			  	
+		  		<!--
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_2.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						     
+						</div>
+					    
+					    <!-- Card Reveal --  
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_2" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+		  		</div>
+
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_3.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						     
+						</div>
+					    
+					    <!-- Card Reveal --   
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_3" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			   </div>-->
+			 
+		</div>
+		<br> <br> <br> 
+	</div>
+
+	<!-- Parallex Effect -->
+
+	    <div class="parallax-container hide-on-med-and-down">
+    		<div class="parallax"><img src="images/puzzle.jpg" style=" overflow: none; display: block;"></div>
+  		</div>
+		<div class="hide-on-large-only">
+			<img src="images/puzzle.jpg" style="width:100%;">
+		</div>
+	<!-- Cards --	
+      <div class="container" id="row1"> 
+    	<div class="row">
+			    <div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" height="55%" src="images/tech_sept_1.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i></span>
+						      <p style="width: 100%; display: inline-block; overflow: none;color:black">Article Title</p>
+						</div>
+
+					 <!-- Card Reveal --    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_1" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+
+			  		</div>
+				</div>
+			  	
+		  		
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_2.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						   
+						</div>
+					    
+					    <!-- Card Reveal --  
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_2" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+		  		</div>
+
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_3.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						      
+						</div>
+					    
+					    <!-- Card Reveal --
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_3" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			   </div>
+			   
+			 
+		</div>
+		<br> <br> <br> 
+	</div>-->
+	
+	<div class="none">
+	<div class="container">
+		<h3 class="center-align" >There are no article posted in this section. <br>Be the first to post artcile and grab a chance to win prizes.</h3>
+	</div>
+	</div>
+
+
+<!-- Parallex Effect -->
+
+	    <div class="parallax-container hide-on-med-and-down">
+    		<div class="parallax"><img src="images/stories1.jpg" style=" overflow: none; display: block;"></div>
+  		</div>
+		<div class="hide-on-large-only">
+			<img src="images/stories1.jpg" style="width:100%;">
+		</div>
+	<!-- Cards --	
+      <div class="container" id="row1"> 
+    	<div class="row">
+			    <div class="col m4">
+			      	<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" height="55%" src="images/tech_sept_1.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">info_outline</i></span>
+						      <p style="width: 100%; display: inline-block; overflow: none;color:black">Article Title</p>
+						</div>
+
+					 <!-- Card Reveal --  
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> <img class="imgs" src="images/Harshit.jpg"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_1" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+
+			  		</div>
+				</div>
+			  	
+		  		
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_2.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						    
+						</div>
+					    
+					    <!-- Card Reveal --    
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_2" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+		  		</div>
+
+		  		<div class="col m4">
+			  		<div class="card sticky-action card large">
+					    <div class="card-image waves-effect waves-block waves-light">
+					      <img class="activator thumbnail" src="images/tech_sept_3.jpg">
+					    </div>
+					    
+					    <div class="card-content">
+					      <span class="card-title activator grey-text text-darken-4">Article Title<i class="material-icons right">info_outline</i></span>
+						      
+						</div>
+					    
+					    <!-- Card Reveal --  
+					    <div class="card-reveal">
+					    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+					      <div class="photo"> </div>
+				            <div class="banner"></div>
+				            <ul>
+				                <li><b>Harshit Kumar Singh</b></li>
+				                <li>Web Developer</li>
+				            </ul>
+					    </div>
+
+					    <div class="card-action">
+					    	<center> <a href="#tech_sept_3" class="btn waves-effect waves-red modal-trigger"><i class="fa fa-file-text-o"></i> Read Article</a> </center>
+					    </div>
+			  		</div>
+			   </div>
+			 
+		</div>
+		<br> <br> <br> 
+	</div>-->
+	<div class="none">
+	<div class="container">
+		<h3 class="center-align" >There are no article posted in this section. <br>Be the first to post artcile and grab a chance to win prizes.</h3>
+	</div>
+	</div>
+
+
+
+
+	<!-- Footer -->
+		<footer class="page-footer indigo darken-3" style="margin-top:0">
+	        <div class="container">
+	            <div class="row">
+		            <div class="col l6 s12">
+		                <h5 class="white-text">Parul University</h5>
+		                <p class="grey-text text-lighten-4">P.O.Limda, Ta.Waghodia - 391760 
+		                <br>Dist. Vadodara, Gujarat (India)</p>
+		            <br>
+		                <h5 class="white-text">Contact us</h5>
+	            		<ul class="ul1" style=" text-align: left; margin-top: 0px; color: #fff; font-size: 16px;">
+		            		<li><b>Phone :</b> +91-2668-260312 <br> (202)-(300)-(307)</li>
+							<li><b>Fax :</b> +91-2668-260201</li>
+							<li><b>Email :</b> magarete.cse@gmail.com</li>
+						</ul>
+	            	
+		            </div>
+	              	
+	            	<div class="col l4 offset-l2 s12">
+		                <h5 class="white-text">Links</h5>
+		                <ul class="footerul">
+		                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+		                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i> Gmail</a></li>
+		                </ul>
+		            </div>
+	            </div>
+
+	        </div>
+         
+         	<div class="footer-copyright indigo darken-4">
+            	<div class="container">
+	            	&copy; 2016 Copyright MagArete
+	            	<a class="white-text text-white right" href="#!">Designed and Developed by Parul University</a>
+            	</div>
+         	</div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+      <script>
+      $( document ).ready(function(){
+      	$(".button-collapse").sideNav();
+      	 $('.parallax').parallax();
+      	 $('.modal-trigger').leanModal();
+      });
+      
+      </script>
+    </body>
+  </html>

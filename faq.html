@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+    <title>MagArete: An E-Magazine</title>
+	<meta name="google-signin-client_id" content="940578538283-gf17tvt3tbsdcm4nh02pctqi9u42vpd9.apps.googleusercontent.com.apps.googleusercontent.com">
+
+    <meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css"/>
+    
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <!--Import jQuery before materialize.js-->
+      
+    </head>
+
+    <body> 
+
+	<!-- Navigation Bar -->
+	<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper indigo darken-3">
+		      <a href="index.html" class="brand-logo">MagArete</a>
+		      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="tech.html">Technical</a></li>
+		        <li><a href="non-tech.html">Non-Technical</a></li>
+		        <li><a href="guest.html">Guest</a></li>
+				<li><a href="faq.html">FAQs</a></li>
+		        <li><a href="team.html">Team</a></li>
+		      </ul>
+		    </div>
+		</nav>
+	</div>
+	<ul id="slide-out" class="side-nav left-align" style="width:220px">
+	    <li><div class="userView">
+		    <img class="background" src="images/2.jpg">
+	  		    <a href="#!user"><img class="circle" src="images/Harshit.jpg"></a>
+  			    <a href="#!name"><span class="white-text name">Harshit Kumar Singh</span></a>
+		        <a href="#!email"><span class="white-text email">harshitks2203@gmail.com</span></a>
+	        </div>
+		</li>
+	
+	    <li><a class="waves-effect" href="index.html"><i class="material-icons">home</i>Home</a></li>
+		<li><a class="waves-effect" href="tech.html"><i class="material-icons">code</i>Technical</a></li>
+		<li><a class="waves-effect" href="non-tech.html"><i class="material-icons">nature_people</i>Non-Technical</a></li>
+		<li><a class="waves-effect" href="guest.html"><i class="material-icons">contact_mail</i>Guest</a></li>
+		<li><a class="waves-effect" href="faq.html"><i class="material-icons">query_builder</i>FAQs</a></li>
+		<li><a class="waves-effect" href="team.html"><i class="material-icons">info_outline</i>Team</a></li>
+	</ul>
+	
+	<!-- Heading -->
+
+	<div id="title">
+		<svg viewBox="0 0 1000 80">
+		  <!-- Symbol with text-->
+		  <symbol id="s-text">
+		    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">FAQs</text>
+		  </symbol>
+		  <!-- Clippath with text-->
+		  <clippath id="cp-text">
+		    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text--line">FAQs</text>
+		  </clippath>
+
+		  <!-- Group with clippath for text-->
+		  <g clip-path="url(#cp-text)" class="colortext">
+		    <rect width="100%" height="100%" class="shape"></rect>
+		    <rect width="60%" height="100%" class="anim-shape"></rect>
+		    <rect width="54%" height="100%" class="anim-shape"></rect>
+		    <rect width="47%" height="100%" class="anim-shape"></rect>
+		    <rect width="41%" height="100%" class="anim-shape"></rect>
+		    <rect width="35%" height="100%" class="anim-shape"></rect>
+		  </g>
+
+		  <!-- Transparent copy of text to keep patterned text selectable-->
+		  <use xlink:href="#s-text" class="text--transparent"></use>
+		</svg>
+	</div> 
+
+	<!-- Cards -->	
+      <div class="container"> 
+    	<div class="row">
+			    <div class="col m12" style="width: 100%">
+			      	 <ul class="collapsible popout " data-collapsible="accordion">
+					    <li>
+					      <div class="collapsible-header "><i class="material-icons">question_answer</i>what is the theme for the upcoming edition of magazine?</div>
+					      <div class="collapsible-body"><p>The theme for the upcoming magazine will be declared on the day of the launch of the previous edition.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">question_answer</i>I am from other department then CSE can I still submit the article for the magazine?</div>
+					      <div class="collapsible-body"><p>Yes, why not! Our magazine is all about its diversity. Any student or a
+
+Faculty member from every respective department of the PARUL UNIVERSITY
+
+can submit their articles for the magazine by choosing anyone or both of the
+
+following categories that is 1) Technical &amp; 2) Non-Technical* (Stories, Poems,
+
+Trolls, paintings &amp; photos*), based on the themes of every particular edition as
+
+declared on the of launch date of a peculiar edition.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">question_answer</i>I am alumni of parul university (gtu) batch can I submit article for the
+
+magazine?</div>
+					      <div class="collapsible-body"><p>Yes, you can submit your articles for any one or both of the categories
+
+such as 1).Technical &amp; 2). Non-Technical, for any edition of the magazine
+
+irrespective of any department to which you belonged during your academic
+
+duration at PARUL UNIVERSITY previously.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header "><i class="material-icons">question_answer</i>How can I get the information about the deadline for the article for the
+
+upcoming edition?</div>
+					      <div class="collapsible-body"><p>The deadline for the submission of every article of a particular edition
+
+will be declared on the same day of the “Theme” declaration for the successive
+
+edition of the edition getting published on that particular date.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">question_answer</i>How can I submit the article?</div>
+					      <div class="collapsible-body"><p>You can submit your articles on our email-id that is
+
+magarete.cse@gmail.com. The person submitting the article/s is requested to
+
+submit it before the end of the deadline date as per declared on the website of the
+
+magazine.</p></div>
+					    </li>
+					    <li>
+					      <div class="collapsible-header"><i class="material-icons">question_answer</i>Can I write and submit more than one article for a same edition?</div>
+					      <div class="collapsible-body"><p>Yes, sure you can submit more than one article in anyone or both
+
+categories 1).Technical &amp; 2).Non-Technical.</p></div>
+					    </li>
+					  </ul>
+				</div>
+		</div>
+	
+	</div>
+	<br><br>
+
+	<!-- Footer -->
+		<footer class="page-footer indigo darken-3">
+	        <div class="container">
+	            <div class="row">
+		            <div class="col l6 s12">
+		                <h5 class="white-text">Parul University</h5>
+		                <p class="grey-text text-lighten-4">P.O.Limda, Ta.Waghodia - 391760 
+		                <br>Dist. Vadodara, Gujarat (India)</p>
+		            <br>
+		                <h5 class="white-text">Contact us</h5>
+	            		<ul class="ul1" style=" text-align: left; margin-top: 0px; color: #fff; font-size: 16px;">
+		            		<li><b>Phone :</b> +91-2668-260312 <br> (202)-(300)-(307)</li>
+							<li><b>Fax :</b> +91-2668-260201</li>
+							<li><b>Email :</b> magarete.cse@gmail.com</li>
+						</ul>
+	            	
+		            </div>
+	              	
+	            	<div class="col l4 offset-l2 s12">
+		                <h5 class="white-text">Links</h5>
+		                <ul class="footerul">
+		                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+		                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-envelope-o" aria-hidden="true"></i> Gmail</a></li>
+		                </ul>
+		            </div>
+	            </div>
+
+	        </div>
+         
+         	<div class="footer-copyright indigo darken-4">
+            	<div class="container">
+	            	&copy; 2016 Copyright MagArete
+	            	<a class="white-text text-white right" href="#!">Designed and Developed by Parul University</a>
+            	</div>
+         	</div>
+        </footer>
+	
+		<script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+		<script>
+			 $(document).ready(function(){
+				$(".button-collapse").sideNav();
+				 $('.parallax').parallax();
+				 $('.modal-trigger').leanModal();
+				  $('.scrollspy').scrollSpy();
+				$('.collapsible').collapsible({
+				  accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+				});
+			  });
+		</script>
+		
+    </body>
+  </html>
